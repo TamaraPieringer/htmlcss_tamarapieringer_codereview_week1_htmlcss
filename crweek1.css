@@ -1,0 +1,87 @@
+body {
+	background-color: #E9EBEE;
+	color: #706666;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 87,5%;
+}
+
+body a {
+	text-decoration: none;
+}
+
+header {
+	background-color: #3b5998;
+	color: white;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#footer {
+	background-color: #3b5998;
+	color: #FFFFFF;
+	height: 60px;
+	width: 100%;
+	margin-top: 5%;
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+address {
+	text-align: center;
+	font size: 85%;
+	font-style: normal;
+	letter-spacing: 2px;
+	line-height: 1,5;
+}
+
+main {
+	position: static;
+	margin-left: 300px;
+	margin-top: 150px;
+	height: 100%;
+	left: 20px;
+}
+
+article {
+	
+	border: 3px solid #73AD21;
+	width: 43%;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+/*I fixed the two sidebars
+*/#lsidebar {
+	position: fixed;
+	top: 17%;
+	left: 5%;
+}
+
+#rsidebar {
+	position: fixed;
+	top: 15%;
+	right: 25%;
+}
+
+
+/*I inserted the pseudo classes at the end of the css file
+*/
+a:link { color: #d90000; }
+a:visited { color: #cc6666 }
+a:hover,
+a:focus {
+	text-decoration: :none;
+}
+a:active {
+	background-color: #d90000;
+	color: white;
+}
+
